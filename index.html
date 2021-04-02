@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Chat application</title>
+</head>
+
+<body>
+    <div class="login">
+        <div class="container">
+            <center>
+                <div class="imgclass">
+                <img src="assets/avatar.png" width="100px;" class="imgcon"></div><br>
+                <h2>Login to Chatapp</h2>
+                <p id="alert">  </p>
+                <br>
+            </center>
+            
+            <span class="uname">Username: </span>
+            <input name="uname" required id="unamelogin" placeholder="Marsx_space" class="unamelogin"><br><br><br>
+
+            <span class="psw">Password:</span>
+            <input type="password" required placeholder="******" name="psw" id="pswlogin" class="pswlogin"><br><br>
+            <br>
+            <button id="changetosignup"> Sign-up</button>
+            <button id="login">Log In</button>
+           
+
+        </div>
+    </div>
+    <div class="signup">
+
+        <div class="container">
+            <center>
+                <img src="assets/avatar1.png" width="100px;"><br>
+                <h2>Signup to Chatapp</h2>
+                <p id="unamever">  </p>
+                <p id="alert2">  </p>
+                <br>
+            </center>
+            
+            <span class="uname">Username: </span>
+        
+            <input name="uname" id="unamesignup" placeholder="Marsx_space"><br>
+            <p id="unamevr"></p>
+            <br>
+            
+            <span class="psw">Password:</span>
+            <input type="password" placeholder="******" name="psw" id="pswsignup"><br><br>
+            <br>
+            <span class="name">Name:</span>
+            <input name="name" placeholder="name" id="name">
+            <br><br><br>
+            <span class="phone" >Phone:</span>
+            <input type="tel" name="phone" id="phone" placeholder="Phone">
+
+            <br><br><br><br>
+            <button id="changetologin">Log In</button>
+            <button id="signup"> Sign-up</button>
+            
+        </div>
+
+
+    </div>
+
+
+<script src="script/script.js"></script>
+</body>
+
+</html>
