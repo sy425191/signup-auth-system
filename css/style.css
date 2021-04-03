@@ -1,0 +1,96 @@
+body{
+    background-color: aquamarine;
+    
+}
+.login{
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    
+}
+
+
+.container span{
+    float: left;
+    font-size: 20px;
+}
+.container input{
+    width: 180px;
+    float: right;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 15px;
+    width: 165px;
+    
+}
+
+
+button{
+    display: inline;
+    width: 100px;
+    color: white;
+    height: 35px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+#signup{
+    float: right;
+    margin-right: 40px;
+    background-color: turquoise;
+}
+#login{
+    float: right;
+    margin-right: 40px;
+    background-color:turquoise;
+}
+#changetologin{
+    float: left;
+    margin-left: 40px;
+    background-color:tomato;
+}
+#changetosignup{
+    float: left;
+    margin-left: 40px;
+    background-color: tomato;
+}
+.container img{
+    
+    margin: auto;
+    border-radius: 60%;
+    align-items: center;
+    border: 2px solid black;
+}
+
+
+.container{
+    position: relative;
+   
+}
+.signup{
+    margin: auto;
+    display: none;
+    margin-top: 100px;
+    width: 300px;
+}
+p#alert{
+    width: 90%;
+    display: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+p#alert2{
+    width: 90%;
+    display: none;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+p#unamever{
+    
+    color: red;
+}
